@@ -11,5 +11,5 @@ in order to function.
 
 Please contact me for more information:
  - [Email](mailto:namanarora166@gmail.com)
- - [LinkedIN](https://www.linkedin.com/in/namarora)
+ - [LinkedIn](https://www.linkedin.com/in/namarora)
  - [Twitter](https://twitter.com/RealNamanArora)

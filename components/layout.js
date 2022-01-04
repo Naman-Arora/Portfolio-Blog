@@ -1,13 +1,43 @@
-import Alert from '../components/alert'
-import Footer from '../components/footer'
-import Meta from '../components/meta'
+import Footer from './footer'
+import Meta from './meta'
+import Header from './header'
 
-export default function Layout({ preview, children }) {
+let ab;
+let bl;
+let ct;
+let nh;
+
+function headerType(){
+  if(nh){
+    return <></>;
+  }
+  else if(ab){
+    return <Header aboutme />;
+  }
+  else if(bl){
+    return <Header blog />;
+  }
+  else if(ct){
+    return <Header contact />;
+  }
+  else{
+    return <Header />;
+  }
+}
+
+export default function Layout({children, noHeader, aboutme, blog, contact }) {
+
+  ab = aboutme;
+  bl = blog;
+  ct = contact;
+  nh = noHeader;
+
   return (
     <>
       <Meta />
+      {headerType()}
       <div className="min-h-screen">
-        <Alert preview={preview} />
+        
         <main>{children}</main>
       </div>
       <Footer />

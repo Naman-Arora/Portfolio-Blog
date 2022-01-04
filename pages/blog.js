@@ -6,18 +6,18 @@ import Layout from '../components/layout'
 import { getAllPosts } from '../lib/posts-api'
 import Head from 'next/head'
 
-export default function Index({ allPosts }) {
+export default function Blog({ allPosts }) {
   const heroPost = allPosts[0]
   const morePosts = allPosts.slice(1)
   return (
     <>
       <Layout noHeader >
         <Head>
-          <title>Naman Arora | Portfolio & Blog </title>
+          <title>Naman Arora | Blog </title>
         </Head>
         
         <Container>
-        <Intro />
+        <Intro blog />
           {heroPost && (
             <HeroPost
               title={heroPost.title}

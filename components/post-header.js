@@ -1,3 +1,5 @@
+//The styling for the import information for the blog posts
+
 import Avatar from '../components/avatar'
 import DateFormatter from '../components/date-formatter'
 import CoverImage from '../components/cover-image'

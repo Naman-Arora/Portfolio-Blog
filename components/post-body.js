@@ -1,3 +1,5 @@
+//The styles for the posts in the blog
+
 import markdownStyles from './markdown-styles.module.css'
 
 export default function PostBody({ content }) {

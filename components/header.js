@@ -1,6 +1,7 @@
+//The header for all the websites except the blog home page and the index page
+
 import Link from 'next/link'
 import Container from './container'
-
 
 export default function Header({aboutme, blog, contact}) {
 

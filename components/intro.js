@@ -1,3 +1,5 @@
+//The header for the blog post
+
 import Link from "next/link";
 
 export default function Intro({ blog }) {

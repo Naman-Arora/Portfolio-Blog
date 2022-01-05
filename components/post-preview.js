@@ -1,3 +1,5 @@
+//The styling for the post previews on the blog post page
+
 import Avatar from '../components/avatar'
 import DateFormatter from '../components/date-formatter'
 import CoverImage from './cover-image'

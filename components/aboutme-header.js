@@ -1,3 +1,5 @@
+//The styling for the import information for the about me posts
+
 import Avatar from '../components/avatar'
 import CoverImage from '../components/cover-image'
 import PostTitle from '../components/post-title'

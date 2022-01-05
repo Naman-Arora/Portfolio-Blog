@@ -1,3 +1,5 @@
+//The standard layout for all the pages on the website
+
 import Footer from './footer'
 import Meta from './meta'
 import Header from './header'

@@ -1,3 +1,5 @@
+// The main blog post for the blog page
+
 import Avatar from '../components/avatar'
 import DateFormatter from '../components/date-formatter'
 import CoverImage from '../components/cover-image'

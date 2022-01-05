@@ -1,3 +1,5 @@
+//code for avatar picture in blog posts
+
 export default function Avatar({ name, picture }) {
   return (
     <div className="flex items-center">

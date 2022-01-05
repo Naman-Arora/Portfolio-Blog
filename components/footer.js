@@ -1,3 +1,5 @@
+// footer for each page for the website
+
 import Container from "./container";
 import { EXAMPLE_PATH } from "../lib/constants";
 

@@ -1,3 +1,5 @@
+// The rest of the stories that go on the blog home page
+
 import PostPreview from '../components/post-preview'
 
 export default function MoreStories({ posts }) {

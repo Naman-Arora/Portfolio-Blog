@@ -1,4 +1,4 @@
-# This is my Website's Source Code
+# This is my Portfolio & Blog Website's Source Code
 
 My portfolio website uses code from [Vercel's NextJS Github Repository](https://github.com/vercel/next.js/) in order to function. However, this code is heavily modified from the original and has vastly different content. 
 

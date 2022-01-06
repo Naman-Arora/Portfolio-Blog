@@ -9,7 +9,7 @@ export default function Header({aboutme, blog, contact}) {
     <header className='bg-gray-300 border-t border-accent-2'>
       <Container>
     <div className='flex-col md:flex-row flex items-center md:justify-between mt-10 mb-10 md:mb-10 py-4 '>
-    <h2 className="text-6xl md:text-4xl font-bold tracking-tight md:tracking-tighter leading-tight mb-10 mt-0" >
+    <h2 className="text-6xl md:text-6xl font-bold tracking-tight md:tracking-tighter leading-tight mb-10 mt-0" >
       <Link href="/">
         <a className="hover:underline">Naman Arora</a>
       </Link>

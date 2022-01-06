@@ -11,13 +11,13 @@ export default function Blog({ allPosts }) {
   const morePosts = allPosts.slice(1)
   return (
     <>
-      <Layout noHeader >
+      <Layout blog >
         <Head>
           <title>Naman Arora | Blog </title>
         </Head>
         
         <Container>
-        <Intro blog />
+        {/*<Intro blog />*/}
           {heroPost && (
             <HeroPost
               title={heroPost.title}

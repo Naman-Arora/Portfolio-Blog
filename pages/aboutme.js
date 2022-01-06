@@ -25,7 +25,7 @@ export default function AboutMe() {
                     Academic Achievements &rarr;
                   </h3>
                   <p className="mt-4 text-xl">
-                    Find in-depth information about Next.js features and API.
+                    My relevant and best SAT, ACT, and AP Test Scores.
                   </p>
                 </a>
               </Link>
@@ -36,7 +36,7 @@ export default function AboutMe() {
                     Work & Internships &rarr;
                   </h3>
                   <p className="mt-4 text-xl">
-                    Learn about Next.js in an interactive course with quizzes!
+                    My previous experience in jobs and intenships.
                   </p>
                 </a>
               </Link>
@@ -47,7 +47,7 @@ export default function AboutMe() {
                     Extracurriculars &rarr;
                   </h3>
                   <p className="mt-4 text-xl">
-                    Discover and deploy boilerplate example Next.js projects.
+                    The extracurricular activities I partake in and my achievements.
                   </p>
                 </a>
               </Link>
@@ -58,8 +58,7 @@ export default function AboutMe() {
                     Hobbies & Interests &rarr;
                   </h3>
                   <p className="mt-4 text-xl">
-                    Instantly deploy your Next.js site to a public URL with
-                    Vercel.
+                    My hobbies and interests that I enjoy in my free time.
                   </p>
                 </a>
               </Link>

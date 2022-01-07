@@ -1,9 +1,9 @@
 ---
 title: 'Work and Internships'
 excerpt: 'something something something'
-coverImage: '/assets/blog/work/work.jpg'
+coverImage: '/assets/blog/work/work-highquality.jpg'
 ogImage:
-  url: '/assets/blog/work/work.jpg'
+  url: '/assets/blog/work/work-highquality.jpg'
 ---
 
 ### **Electrical Engineer Shadow**

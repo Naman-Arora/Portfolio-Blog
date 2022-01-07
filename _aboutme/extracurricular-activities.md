@@ -1,9 +1,9 @@
 ---
 title: 'Extracurricular Activities'
 excerpt: 'something something something'
-coverImage: '/assets/blog/extracurricular/tennis.jpg'
+coverImage: '/assets/blog/extracurricular/tennis-racket-highquality.jpg'
 ogImage:
-  url: '/assets/blog/extracurricular/tennis.jpg'
+  url: '/assets/blog/extracurricular/tennis-racket-highquality.jpg'
 ---
 
 

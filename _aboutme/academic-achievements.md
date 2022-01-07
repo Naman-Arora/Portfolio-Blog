@@ -1,12 +1,12 @@
 ---
 title: 'Academic Achievements'
 excerpt: 'something something something'
-coverImage: '/assets/blog/academic/notes.jpg'
+coverImage: '/assets/blog/academic/test-highquality.jpg'
 ogImage:
-  url: '/assets/blog/academic/notes.jpg'
+  url: '/assets/blog/academic/test-highquality.jpg'
 ---
 
-### [SAT]{#sat}
+### SAT
 
 * • Score **1560/1600**
 * • **760** EBRW

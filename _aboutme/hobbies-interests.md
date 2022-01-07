@@ -1,9 +1,9 @@
 ---
 title: 'Hobbies and Interests'
 excerpt: 'something something something'
-coverImage: '/assets/blog/hobbies/computers.jpg'
+coverImage: '/assets/blog/hobbies/computers-highquality.jpg'
 ogImage:
-  url: '/assets/blog/hobbies/computers.jpg'
+  url: '/assets/blog/hobbies/computers-highquality.jpg'
 ---
 
 

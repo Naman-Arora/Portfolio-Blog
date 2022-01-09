@@ -4,21 +4,22 @@ import Container from "./container";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-300 border-t border-accent-2">
+    <footer className="bg-accent-7 border-t border-t-accent-7">
       <Container>
         <div className="py-14 flex flex-col lg:flex-row items-center">
           <h3 className="text-3xl lg:text-4xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
-            © Naman Arora 2021
+            © Naman Arora 2021 - 2022
           </h3>
           <div className="flex flex-row justify-center items-center lg:pl-4 lg:w-1/2">
             <a
               href="mailto:namanarora166@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="mx-1 hover:text-blue-900"
+              className="mx-1 hover:text-blue-400"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
+                role="img"
                 width="48"
                 height="48"
                 fill="currentColor"
@@ -33,10 +34,11 @@ export default function Footer() {
               href="https://github.com/Naman-Arora/"
               target="_blank"
               rel="noopener noreferrer"
-              className="mx-1 hover:text-blue-900"
+              className="mx-1 hover:text-blue-400"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
+                role="img"
                 width="48"
                 height="48"
                 fill="currentColor"
@@ -50,10 +52,11 @@ export default function Footer() {
               href="https://twitter.com/RealNamanArora"
               target="_blank"
               rel="noopener noreferrer"
-              className="mx-1 hover:text-blue-900"
+              className="mx-1 hover:text-blue-400"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
+                role="img"
                 width="48"
                 height="48"
                 fill="currentColor"
@@ -67,10 +70,11 @@ export default function Footer() {
               href="https://www.instagram.com/namarora/"
               target="_blank"
               rel="noopener noreferrer"
-              className="mx-1 hover:text-blue-900"
+              className="mx-1 hover:text-blue-400"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
+                role="img"
                 width="48"
                 height="48"
                 fill="currentColor"
@@ -85,10 +89,11 @@ export default function Footer() {
               href="https://www.linkedin.com/in/namarora"
               target="_blank"
               rel="noopener noreferrer"
-              className="mx-1 hover:text-blue-900"
+              className="mx-1 hover:text-blue-400"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
+                role="img"
                 width="48"
                 height="48"
                 fill="currentColor"

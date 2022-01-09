@@ -2,6 +2,12 @@ module.exports = {
   content: ['./components/**/*.js', './pages/**/*.js'],
   theme: {
     extend: {
+      fontFamily:{
+        rslab: ['Roboto Slab'],
+        baron: ['Baron Neue Black'],
+        base: ['Basement Grotesque Roman'],
+        argentum: ['Argentum Sans Black'],
+      },
       colors: {
         'accent-1': '#FAFAFA',
         'accent-2': '#EAEAEA',
@@ -14,6 +20,7 @@ module.exports = {
       },
       letterSpacing: {
         tighter: '-.04em',
+        loose: '.03em',
       },
       lineHeight: {
         tight: 1.2,

@@ -6,13 +6,13 @@ ogImage:
   url: '/assets/blog/academic/test-highquality.jpg'
 ---
 
-### SAT
+### **SAT**
 
 * • Score **1560/1600**
 * • **760** EBRW
 * • **800** Math
 
-### ACT
+### **ACT**
 
 - • Composite Score: **34/36**
 - • Math: **35**
@@ -20,7 +20,7 @@ ogImage:
 - • English: **31**
 - • Reading: **34**
 
-### AP Tests
+### **AP Tests**
 - • AP Calculus AB **(4/5)**
 - • AP Computer Science A **(4/5)**
 - • AP Chemistry **(4/5)**

@@ -9,3 +9,6 @@
 7. TailwindCSS
 8. NextJS
 9. React
+10. Arduino
+11. Node JS
+12. Markdown

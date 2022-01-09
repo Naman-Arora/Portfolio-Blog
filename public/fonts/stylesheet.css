@@ -1,0 +1,30 @@
+/*@font-face {
+    font-family: 'Basement Grotesque Roman';
+    src: local('Basement Grotesque Black'), local('BasementGrotesque-Black'),
+        url('BasementGrotesque-Black.woff2') format('woff2'),
+        url('BasementGrotesque-Black.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}*/
+
+@font-face {
+    font-family: 'Baron Neue Black';
+    src: local('Baron Neue Black'), local('BaronNeueBlack'),
+        url('BaronNeueBlack.woff2') format('woff2'),
+        url('BaronNeueBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Argentum Sans Black';
+    src: local('Argentum Sans Black'), local('ArgentumSansBlack'),
+        url('argentum-sans-black.woff2') format('woff2'),
+        url('argentum-sans-black.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+

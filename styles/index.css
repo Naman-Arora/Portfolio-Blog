@@ -1,3 +1,11 @@
+@import url('/fonts/stylesheet.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html{
+    @apply text-gray-200;
+    @apply bg-[#121212];
+}

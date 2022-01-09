@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import Head from "next/head";
 import Link from "next/link";
 
-const card_css = "p-6 lg:p-10 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600";
+const card_css = "p-6 lg:p-10 mt-6 text-left border w-96 rounded-xl hover:text-blue-400 focus:text-blue-500";
 
 export default function AboutMe() {
   return (
@@ -13,7 +13,7 @@ export default function AboutMe() {
       </Head>
       <Container>
         <div className="flex flex-col items-center justify-center min-h-screen py-2">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter" >
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-argentum" >
             Learn About Me
           </h1>
           <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">

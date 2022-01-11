@@ -25,7 +25,7 @@ function devices(){
 export function GetJavascript() {
   // 1
   //color: #F7DF1E\
-  devices();
+  //devices();
   
   return (
     <img
@@ -39,28 +39,28 @@ export function GetJavascript() {
 
 export function GetGimp() {
   // 2
-  devices();
+  //devices();
   //color: #5C5543
   return <img src="/logos/gimp.svg" alt="GIMP" height={dim} width={dim} />;
 }
 
 export function GetHtml() {
   // 3
-  devices();
+  //devices();
   //color: #E34F26
   return <img src="/logos/html5.svg" alt="HTML 5" height={dim} width={dim} />;
 }
 
 export function GetCss() {
   // 4
-  devices();
+  //devices();
   //color: #1572B6
   return <img src="/logos/css3.svg" alt="CSS 3" height={dim} width={dim} />;
 }
 
 export function GetBlender() {
   // 5
-  devices();
+  //devices();
   //color: #F5792A
   return (
     <img src="/logos/blender.svg" alt="Blender" height={dim} width={dim} />
@@ -69,7 +69,7 @@ export function GetBlender() {
 
 export function GetTailwindcss() {
   // 6
-  devices();
+  //devices();
   //color: #06B6D4
   return (
     <img
@@ -83,7 +83,7 @@ export function GetTailwindcss() {
 
 export function GetNextjs() {
   // 7
-  devices();
+  //devices();
   //color: #000000
   return (
     <img src="/logos/nextdotjs.svg" alt="NEXT JS" height={dim} width={dim} />
@@ -92,7 +92,7 @@ export function GetNextjs() {
 
 export function GetNodejs() {
   // 8
-  devices();
+  //devices();
   //color: #339933
   return (
     <img src="/logos/nodedotjs.svg" alt="Node JS" height={dim} width={dim} />
@@ -101,7 +101,7 @@ export function GetNodejs() {
 
 export function GetArduino() {
   // 9
-  devices();
+  //devices();
   //color: #00979D
   return (
     <img src="/logos/arduino.svg" alt="Arduino" height={dim} width={dim} />
@@ -110,14 +110,14 @@ export function GetArduino() {
 
 export function GetReact() {
   // 10
-  devices();
+  //devices();
   //color: #61DAFB
   return <img src="/logos/react.svg" alt="React" height={dim} width={dim} />;
 }
 
 export function GetMarkdown() {
   // 11
-  devices();
+  //devices();
   //color: #000000
   return (
     <img src="/logos/markdown.svg" alt="Markdown" height={dim} width={dim} />
@@ -126,14 +126,14 @@ export function GetMarkdown() {
 
 export function GetJava() {
   // 12
-  devices();
+  //devices();
   //color: #007396
   return <img src="/logos/java.svg" alt="Java" height={dim} width={dim} />;
 }
 
 export function GetDavinciResolve() {
   // 13
-  devices();
+  //devices();
   return (
     //check later
     <img
@@ -148,7 +148,7 @@ export function GetDavinciResolve() {
 export function GetPython() {
   // 14
   //color: #3776AB
-  devices();
+  //devices();
   return (
     //check later
     <img
@@ -163,7 +163,7 @@ export function GetPython() {
 export function GetPowershell() {
   // 15
   //color: #5391FE
-  devices();
+  //devices();
   return (
     //check later
     <img
@@ -178,7 +178,7 @@ export function GetPowershell() {
 export function GetWord() {
   // 16
   //color: #2B579A
-  devices();
+  //devices();
   return (
     //check later
     <img
@@ -193,7 +193,7 @@ export function GetWord() {
 export function GetExcel() {
   // 16
   //color: #217346
-  devices();
+  //devices();
   return (
     //check later
     <img
@@ -208,7 +208,7 @@ export function GetExcel() {
 export function GetPowerpoint() {
   // 16
   //color: #B7472A
-  devices();
+  //devices();
   return (
     //check later
     <img

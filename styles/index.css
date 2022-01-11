@@ -8,4 +8,7 @@
 html{
     @apply text-gray-200;
     @apply bg-[#121212];
+    /*@apply bg-[#262626];
+    @apply text-black;*/
 }
+

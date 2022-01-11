@@ -1,6 +1,6 @@
 ---
-title: 'Hobbies and Interests'
-excerpt: 'something something something'
+title: 'Hobbies & Interests'
+excerpt: ''
 coverImage: '/assets/blog/hobbies/computers-highquality.jpg'
 ogImage:
   url: '/assets/blog/hobbies/computers-highquality.jpg'

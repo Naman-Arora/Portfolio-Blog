@@ -12,3 +12,9 @@
 10. Arduino
 11. Node JS
 12. Markdown
+13. Java
+14. Python
+15. Powershell
+16. Word
+17. Excel
+18. Powerpoint

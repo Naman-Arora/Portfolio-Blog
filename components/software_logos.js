@@ -1,95 +1,221 @@
+import { useMediaQuery } from 'react-responsive'
+
+let dim = 120;
+
+function devices(){
+  
+  const isMobileDevice = useMediaQuery({
+    query: "(min-device-width: 480px)",
+  });
+
+  const isTabletDevice = useMediaQuery({
+    query: "(min-device-width: 768px)",
+  });
+
+  const isLaptopDevice = useMediaQuery({
+    query: "(min-device-width: 1024px)",
+  });
+
+  isMobileDevice && (dim = 60);
+  isTabletDevice && (dim = 90);
+  isLaptopDevice && (dim = 120);
+
+}
+
 export function GetJavascript() {
-  //color: #F7DF1E
+  // 1
+  //color: #F7DF1E\
+  devices();
+  
   return (
     <img
       src="/logos/javascript.svg"
       alt="Javascript"
-      height="120"
-      width="120"
+      height={dim}
+      width={dim}
     />
   );
 }
 
 export function GetGimp() {
+  // 2
+  devices();
   //color: #5C5543
-  return <img src="/logos/gimp.svg" alt="GIMP" height="120" width="120"  />;
+  return <img src="/logos/gimp.svg" alt="GIMP" height={dim} width={dim} />;
 }
 
 export function GetHtml() {
+  // 3
+  devices();
   //color: #E34F26
-  return <img src="/logos/html5.svg" alt="HTML 5" height="120" width="120" />;
+  return <img src="/logos/html5.svg" alt="HTML 5" height={dim} width={dim} />;
 }
 
 export function GetCss() {
+  // 4
+  devices();
   //color: #1572B6
-  return <img src="/logos/css3.svg" alt="CSS 3" height="120" width="120" />;
+  return <img src="/logos/css3.svg" alt="CSS 3" height={dim} width={dim} />;
 }
 
 export function GetBlender() {
+  // 5
+  devices();
   //color: #F5792A
   return (
-    <img src="/logos/blender.svg" alt="Blender" height="120" width="120" />
+    <img src="/logos/blender.svg" alt="Blender" height={dim} width={dim} />
   );
 }
 
 export function GetTailwindcss() {
+  // 6
+  devices();
   //color: #06B6D4
   return (
     <img
       src="/logos/tailwindcss.svg"
       alt="Tailwind CSS"
-      height="120"
-      width="120"
+      height={dim}
+      width={dim}
     />
   );
 }
 
 export function GetNextjs() {
+  // 7
+  devices();
   //color: #000000
   return (
-    <img src="/logos/nextdotjs.svg" alt="NEXT JS" height="120" width="120" />
+    <img src="/logos/nextdotjs.svg" alt="NEXT JS" height={dim} width={dim} />
   );
 }
 
 export function GetNodejs() {
+  // 8
+  devices();
   //color: #339933
   return (
-    <img src="/logos/nodedotjs.svg" alt="Node JS" height="120" width="120" />
+    <img src="/logos/nodedotjs.svg" alt="Node JS" height={dim} width={dim} />
   );
 }
 
 export function GetArduino() {
+  // 9
+  devices();
   //color: #00979D
   return (
-    <img src="/logos/arduino.svg" alt="Arduino" height="120" width="120" />
+    <img src="/logos/arduino.svg" alt="Arduino" height={dim} width={dim} />
   );
 }
 
 export function GetReact() {
+  // 10
+  devices();
   //color: #61DAFB
-  return <img src="/logos/react.svg" alt="React" height="120" width="120" />;
+  return <img src="/logos/react.svg" alt="React" height={dim} width={dim} />;
 }
 
 export function GetMarkdown() {
+  // 11
+  devices();
   //color: #000000
   return (
-    <img src="/logos/markdown.svg" alt="Markdown" height="120" width="120" />
+    <img src="/logos/markdown.svg" alt="Markdown" height={dim} width={dim} />
   );
 }
 
 export function GetJava() {
+  // 12
+  devices();
   //color: #007396
-  return <img src="/logos/java.svg" alt="Java" height="120" width="120" />;
+  return <img src="/logos/java.svg" alt="Java" height={dim} width={dim} />;
 }
 
 export function GetDavinciResolve() {
+  // 13
+  devices();
   return (
     //check later
     <img
       src="/logos/davinci_resolve.svg"
       alt="DaVinci Resolve"
-      height="120"
-      width="120"
+      height={dim}
+      width={dim}
+    />
+  );
+}
+
+export function GetPython() {
+  // 14
+  //color: #3776AB
+  devices();
+  return (
+    //check later
+    <img
+      src="/logos/python.svg"
+      alt="Python"
+      height={dim}
+      width={dim}
+    />
+  );
+}
+
+export function GetPowershell() {
+  // 15
+  //color: #5391FE
+  devices();
+  return (
+    //check later
+    <img
+      src="/logos/powershell.svg"
+      alt="Powershell"
+      height={dim}
+      width={dim}
+    />
+  );
+}
+
+export function GetWord() {
+  // 16
+  //color: #2B579A
+  devices();
+  return (
+    //check later
+    <img
+      src="/logos/microsoftword.svg"
+      alt="Microsoft Word"
+      height={dim}
+      width={dim}
+    />
+  );
+}
+
+export function GetExcel() {
+  // 16
+  //color: #217346
+  devices();
+  return (
+    //check later
+    <img
+      src="/logos/microsoftexcel.svg"
+      alt="Microsoft Excel"
+      height={dim}
+      width={dim}
+    />
+  );
+}
+
+export function GetPowerpoint() {
+  // 16
+  //color: #B7472A
+  devices();
+  return (
+    //check later
+    <img
+      src="/logos/microsoftpowerpoint.svg"
+      alt="Microsoft Powerpoint"
+      height={dim}
+      width={dim}
     />
   );
 }

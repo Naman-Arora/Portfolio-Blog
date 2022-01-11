@@ -1,6 +1,6 @@
 ---
-title: 'Work and Internships'
-excerpt: 'something something something'
+title: 'Work & Internships'
+excerpt: ''
 coverImage: '/assets/blog/work/work-highquality.jpg'
 ogImage:
   url: '/assets/blog/work/work-highquality.jpg'

@@ -1,6 +1,6 @@
 ---
 title: 'Academic Achievements'
-excerpt: 'something something something'
+excerpt: ''
 coverImage: '/assets/blog/academic/test-highquality.jpg'
 ogImage:
   url: '/assets/blog/academic/test-highquality.jpg'
@@ -8,9 +8,9 @@ ogImage:
 
 ### **SAT**
 
-* • Score **1560/1600**
-* • **760** EBRW
-* • **800** Math
+- • Score **1560/1600**
+- • **760** EBRW
+- • **800** Math
 
 ### **ACT**
 

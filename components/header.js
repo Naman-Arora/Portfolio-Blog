@@ -9,8 +9,8 @@ export default function Header({aboutme, blog, contact}) {
   return (
     <header className='bg-accent-7 border-t border-t-accent-7' >
       <Container>
-    <div className='flex-col md:flex-row flex items-center md:justify-between mt-10 mb-10 md:mb-10 py-4 '>
-    <h2 className="text-6xl md:text-6xl font-bold leading-tight mb-10 mt-0 font-baron" >
+    <div className='flex-col md:flex-row flex items-center md:justify-between mt-10 mb-10 py-4 '>
+    <h2 className="text-6xl md:text-6.5xl font-bold leading-tight mb-10 mt-0 font-baron" >
       <Link href="/">
         <a className="hover:underline">Naman Arora</a>
       </Link>

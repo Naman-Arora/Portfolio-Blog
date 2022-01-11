@@ -8,7 +8,7 @@
 .markdown ul,
 .markdown ol,
 .markdown blockquote {
-  @apply my-6 text-xl;
+  @apply my-6 text-xl tracking-normal;
 }
 
 .markdown h2 {

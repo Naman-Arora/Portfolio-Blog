@@ -29,7 +29,7 @@ export default function Skills() {
   const aStyle = "hover:underline";
 
   return (
-    <Layout>
+    <Layout aboutme >
       <Head>
         <title>Naman Arora | Skills</title>
       </Head>

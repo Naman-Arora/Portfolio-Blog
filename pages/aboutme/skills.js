@@ -24,7 +24,7 @@ import {
 
 export default function Skills() {
   const gridStyle =
-    "flex items-center justify-center p-2 flex-col bg-zinc-700 rounded-lg my-4 mx-8";
+    "flex items-center justify-center p-2 flex-col lg:bg-zinc-700 rounded-lg lg:my-4 lg:mx-8";
   const pStyle = "font-rslab md:text-xl text-lg font-bold pb-2  text-center ";
   const aStyle = "hover:underline";
 
@@ -41,7 +41,7 @@ export default function Skills() {
               className={aStyle}
               target="_blank"
             >
-              <div className="pt-2">
+              <div className="lg:pt-2">
                 <GetJavascript />
               </div>
               <p className={pStyle}>JavaScript</p>
@@ -49,7 +49,7 @@ export default function Skills() {
           </div>
           <div className={gridStyle}>
             <a href="https://www.java.com/" className={aStyle} target="_blank">
-              <div className="pt-2">
+              <div className="lg:pt-2">
                 <GetJava />
               </div>
               <p className={pStyle}>Java</p>
@@ -61,7 +61,7 @@ export default function Skills() {
               className={aStyle}
               target="_blank"
             >
-              <div className="pt-2">
+              <div className="lg:pt-2">
                 <GetPython />
               </div>
               <p className={pStyle}>Python</p>
@@ -74,7 +74,7 @@ export default function Skills() {
               className={aStyle}
               target="_blank"
             >
-              <div className="pt-2">
+              <div className="lg:pt-2">
                 <GetHtml />
               </div>
               <p className={pStyle}>HTML</p>
@@ -86,7 +86,7 @@ export default function Skills() {
               className={aStyle}
               target="_blank"
             >
-              <div className="pt-2">
+              <div className="lg:pt-2">
                 <GetCss />
               </div>
               <p className={pStyle}>CSS</p>
@@ -94,7 +94,7 @@ export default function Skills() {
           </div>
           <div className={gridStyle}>
             <a href="https://nodejs.org/" className={aStyle} target="_blank">
-              <div className="pt-2">
+              <div className="lg:pt-2">
                 <GetNodejs />
               </div>
               <p className={pStyle}>Node JS</p>
@@ -109,7 +109,7 @@ export default function Skills() {
           </div>
           <div className={gridStyle}>
             <a href="https://nextjs.org/" className={aStyle} target="_blank">
-              <div className="pt-2">
+              <div className="lg:pt-2">
                 <GetNextjs />
               </div>
               <p className={pStyle}>Next JS</p>
@@ -121,7 +121,7 @@ export default function Skills() {
               className={aStyle}
               target="_blank"
             >
-              <div className="pt-2">
+              <div className="lg:pt-2">
                 <GetTailwindcss />
               </div>
               <p className={pStyle}>TailwindCSS</p>
@@ -134,7 +134,7 @@ export default function Skills() {
               className={aStyle}
               target="_blank"
             >
-              <div className="pt-2">
+              <div className="lg:pt-2">
                 <GetPowershell />
               </div>
               <p className={pStyle}>PowerShell</p>
@@ -146,7 +146,7 @@ export default function Skills() {
               className={aStyle}
               target="_blank"
             >
-              <div className="pt-2">
+              <div className="lg:pt-2">
                 <GetArduino />
               </div>
               <p className={pStyle}>Arduino</p>
@@ -158,7 +158,7 @@ export default function Skills() {
               className={aStyle}
               target="_blank"
             >
-              <div className="pt-2">
+              <div className="lg:pt-2">
                 <GetMarkdown />
               </div>
               <p className={pStyle}>Markdown</p>
@@ -171,7 +171,7 @@ export default function Skills() {
               className={aStyle}
               target="_blank"
             >
-              <div className="pt-2">
+              <div className="lg:pt-2">
                 <GetBlender />
               </div>
               <p className={pStyle}>Blender</p>
@@ -179,7 +179,7 @@ export default function Skills() {
           </div>
           <div className={gridStyle}>
             <a href="https://www.gimp.org/" className={aStyle} target="_blank">
-              <div className="pt-2">
+              <div className="lg:pt-2">
                 <GetGimp />
               </div>
               <p className={pStyle}>GIMP</p>
@@ -191,7 +191,7 @@ export default function Skills() {
               className={aStyle}
               target="_blank"
             >
-              <div className="pl-1 lg:pl-5 pt-2">
+              <div className="pl-1 lg:pl-5 lg:pt-2">
                 <GetDavinciResolve />
               </div>
               <p className={pStyle}>DaVinci Resolve</p>
@@ -204,7 +204,7 @@ export default function Skills() {
               className={aStyle}
               target="_blank"
             >
-              <div className="pt-2">
+              <div className="lg:pt-2">
                 <GetWord />
               </div>
               <p className={pStyle}>Word</p>
@@ -216,7 +216,7 @@ export default function Skills() {
               className={aStyle}
               target="_blank"
             >
-              <div className="pt-2">
+              <div className="lg:pt-2">
                 <GetExcel />
               </div>
               <p className={pStyle}>Excel</p>
@@ -228,7 +228,7 @@ export default function Skills() {
               className={aStyle}
               target="_blank"
             >
-              <div className="pt-2">
+              <div className="lg:pt-2">
                 <GetPowerpoint />
               </div>
               <p className={pStyle}>PowerPoint</p>

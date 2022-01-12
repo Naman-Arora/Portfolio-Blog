@@ -62,6 +62,16 @@ export default function AboutMe() {
                   </p>
                 </a>
               </Link>
+              <Link href="/aboutme/skills">
+                <a className="p-6 lg:p-10 mt-6 text-left border w-4xl rounded-xl hover:text-blue-400 focus:text-blue-500">
+                  <h3 className="text-2xl font-bold">
+                    My Skills &rarr;
+                  </h3>
+                  <p className="mt-4 text-xl">
+                    The languages and programs I am familiar with.
+                  </p>
+                </a>
+              </Link>
               
             </div>
           </main>

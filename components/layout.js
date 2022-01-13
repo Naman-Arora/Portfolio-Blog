@@ -8,9 +8,10 @@ let ab;
 let bl;
 let ct;
 let nh;
+let nhd;
 
 function headerType(){
-  if(nh){
+  if(nhd){
     return <></>;
   }
   else if(ab){
@@ -22,27 +23,33 @@ function headerType(){
   else if(ct){
     return <Header contact />;
   }
+  else if(nh){
+    return <Header noHome />;
+  }
   else{
     return <Header />;
   }
 }
 
-export default function Layout({children, noHeader, aboutme, blog, contact }) {
+export default function Layout({children, noHeader, aboutme, blog, contact, noHome }) {
 
   ab = aboutme;
   bl = blog;
   ct = contact;
-  nh = noHeader;
+  nhd = noHeader;
+  nh = noHome;
 
   return (
     <>
       <Meta />
       {headerType()}
-      <div className="min-h-screen">
+      <div className={noHome ? "min-h-full" :"min-h-screen" } /*className='min-h-screen'*/>
         
         <main>{children}</main>
       </div>
-      <Footer />
+        <div /*className={noHome ? "lg:bottom-0 lg:fixed lg:w-screen": ""}*/>
+          <Footer />
+        </div>
     </>
   )
 }

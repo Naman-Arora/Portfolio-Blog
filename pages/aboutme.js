@@ -3,7 +3,8 @@ import Layout from "../components/layout";
 import Head from "next/head";
 import Link from "next/link";
 
-const card_css = "p-6 lg:p-10 mt-6 text-left border w-96 rounded-xl hover:text-blue-400 focus:text-blue-500";
+const card_css =
+  "p-6 lg:p-10 mt-6 text-left border w-96 rounded-xl hover:text-blue-400 focus:text-blue-500";
 
 export default function AboutMe() {
   return (
@@ -13,12 +14,19 @@ export default function AboutMe() {
       </Head>
       <Container>
         <div className="flex flex-col items-center justify-center min-h-screen py-2">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-argentum" >
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-argentum">
             Learn About Me
           </h1>
           <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+            <Link href="/aboutme/skills">
+              <a className="p-6 lg:p-10 mt-6 text-left border w-96 rounded-xl hover:text-blue-400 focus:text-blue-500">
+                <h3 className="text-2xl font-bold">My Skills &rarr;</h3>
+                <p className="mt-4 text-xl">
+                  The languages and programs I am familiar with.
+                </p>
+              </a>
+            </Link>
             <div className="flex flex-wrap items-center justify-around max-w-4xl mt-0 sm:w-full">
-
               <Link href="/aboutme/academic-achievements">
                 <a className={card_css}>
                   <h3 className="text-2xl font-bold">
@@ -47,7 +55,8 @@ export default function AboutMe() {
                     Extracurriculars &rarr;
                   </h3>
                   <p className="mt-4 text-xl">
-                    The extracurricular activities I partake in and my achievements.
+                    The extracurricular activities I partake in and my
+                    achievements.
                   </p>
                 </a>
               </Link>
@@ -62,17 +71,6 @@ export default function AboutMe() {
                   </p>
                 </a>
               </Link>
-              <Link href="/aboutme/skills">
-                <a className="p-6 lg:p-10 mt-6 text-left border w-4xl rounded-xl hover:text-blue-400 focus:text-blue-500">
-                  <h3 className="text-2xl font-bold">
-                    My Skills &rarr;
-                  </h3>
-                  <p className="mt-4 text-xl">
-                    The languages and programs I am familiar with.
-                  </p>
-                </a>
-              </Link>
-              
             </div>
           </main>
         </div>

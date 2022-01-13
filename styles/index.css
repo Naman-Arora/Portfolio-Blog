@@ -10,5 +10,6 @@ html{
     @apply bg-[#121212];
     /*@apply bg-[#262626];
     @apply text-black;*/
+    @apply scroll-smooth;
 }
 

@@ -1,4 +1,5 @@
 import { useMediaQuery } from 'react-responsive'
+import Image from "next/image"
 
 let dim = 120;
 
@@ -28,7 +29,7 @@ export function GetJavascript() {
   //devices();
   
   return (
-    <img
+    <Image
       src="/logos/javascript.svg"
       alt="Javascript"
       height={dim}
@@ -41,21 +42,21 @@ export function GetGimp() {
   // 2
   //devices();
   //color: #5C5543
-  return <img src="/logos/gimp.svg" alt="GIMP" height={dim} width={dim} />;
+  return <Image src="/logos/gimp.svg" alt="GIMP" height={dim} width={dim} />;
 }
 
 export function GetHtml() {
   // 3
   //devices();
   //color: #E34F26
-  return <img src="/logos/html5.svg" alt="HTML 5" height={dim} width={dim} />;
+  return <Image src="/logos/html5.svg" alt="HTML 5" height={dim} width={dim} />;
 }
 
 export function GetCss() {
   // 4
   //devices();
   //color: #1572B6
-  return <img src="/logos/css3.svg" alt="CSS 3" height={dim} width={dim} />;
+  return <Image src="/logos/css3.svg" alt="CSS 3" height={dim} width={dim} />;
 }
 
 export function GetBlender() {
@@ -63,7 +64,7 @@ export function GetBlender() {
   //devices();
   //color: #F5792A
   return (
-    <img src="/logos/blender.svg" alt="Blender" height={dim} width={dim} />
+    <Image src="/logos/blender.svg" alt="Blender" height={dim} width={dim} />
   );
 }
 
@@ -72,7 +73,7 @@ export function GetTailwindcss() {
   //devices();
   //color: #06B6D4
   return (
-    <img
+    <Image
       src="/logos/tailwindcss.svg"
       alt="Tailwind CSS"
       height={dim}
@@ -86,7 +87,7 @@ export function GetNextjs() {
   //devices();
   //color: #000000
   return (
-    <img src="/logos/nextdotjs.svg" alt="NEXT JS" height={dim} width={dim} />
+    <Image src="/logos/nextdotjs.svg" alt="NEXT JS" height={dim} width={dim} />
   );
 }
 
@@ -95,7 +96,7 @@ export function GetNodejs() {
   //devices();
   //color: #339933
   return (
-    <img src="/logos/nodedotjs.svg" alt="Node JS" height={dim} width={dim} />
+    <Image src="/logos/nodedotjs.svg" alt="Node JS" height={dim} width={dim} />
   );
 }
 
@@ -104,7 +105,7 @@ export function GetArduino() {
   //devices();
   //color: #00979D
   return (
-    <img src="/logos/arduino.svg" alt="Arduino" height={dim} width={dim} />
+    <Image src="/logos/arduino.svg" alt="Arduino" height={dim} width={dim} />
   );
 }
 
@@ -112,7 +113,7 @@ export function GetReact() {
   // 10
   //devices();
   //color: #61DAFB
-  return <img src="/logos/react.svg" alt="React" height={dim} width={dim} />;
+  return <Image src="/logos/react.svg" alt="React" height={dim} width={dim} />;
 }
 
 export function GetMarkdown() {
@@ -120,7 +121,7 @@ export function GetMarkdown() {
   //devices();
   //color: #000000
   return (
-    <img src="/logos/markdown.svg" alt="Markdown" height={dim} width={dim} />
+    <Image src="/logos/markdown.svg" alt="Markdown" height={dim} width={dim} />
   );
 }
 
@@ -128,7 +129,7 @@ export function GetJava() {
   // 12
   //devices();
   //color: #007396
-  return <img src="/logos/java.svg" alt="Java" height={dim} width={dim} />;
+  return <Image src="/logos/java.svg" alt="Java" height={dim} width={dim} />;
 }
 
 export function GetDavinciResolve() {
@@ -136,7 +137,7 @@ export function GetDavinciResolve() {
   //devices();
   return (
     //check later
-    <img
+    <Image
       src="/logos/davinci_resolve.svg"
       alt="DaVinci Resolve"
       height={dim}
@@ -151,7 +152,7 @@ export function GetPython() {
   //devices();
   return (
     //check later
-    <img
+    <Image
       src="/logos/python.svg"
       alt="Python"
       height={dim}
@@ -166,7 +167,7 @@ export function GetPowershell() {
   //devices();
   return (
     //check later
-    <img
+    <Image
       src="/logos/powershell.svg"
       alt="Powershell"
       height={dim}
@@ -181,7 +182,7 @@ export function GetWord() {
   //devices();
   return (
     //check later
-    <img
+    <Image
       src="/logos/microsoftword.svg"
       alt="Microsoft Word"
       height={dim}
@@ -196,7 +197,7 @@ export function GetExcel() {
   //devices();
   return (
     //check later
-    <img
+    <Image
       src="/logos/microsoftexcel.svg"
       alt="Microsoft Excel"
       height={dim}
@@ -211,7 +212,7 @@ export function GetPowerpoint() {
   //devices();
   return (
     //check later
-    <img
+    <Image
       src="/logos/microsoftpowerpoint.svg"
       alt="Microsoft Powerpoint"
       height={dim}

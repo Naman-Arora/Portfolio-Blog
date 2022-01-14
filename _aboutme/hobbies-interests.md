@@ -12,7 +12,7 @@ ogImage:
 - I am fluent in **Java**, **Python**, **HTML**, **CSS**, **Javascript**, **React**, **NextJS**, and **TailwindCSS**.
 
 ### **Video Games**
-- I enjoy playing video games as a past-time, especillay shooters like **Valorant** and **Fortnite**.
+- I enjoy playing video games as a past-time, especially shooters like **Valorant** and **Fortnite**.
 - I also really enjoy playing car driving and racing simulators, like **Forza Horizon 5**.
 
 ### **Traveling**

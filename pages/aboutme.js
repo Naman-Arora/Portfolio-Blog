@@ -4,7 +4,7 @@ import Head from "next/head";
 import Link from "next/link";
 
 const card_css =
-  "p-6 lg:p-10 mt-6 text-left border w-96 rounded-xl hover:text-blue-400 focus:text-blue-500";
+  "p-6 lg:p-10 mt-6 text-left border w-96 rounded-xl hover:border-yel focus:border-yel";
 
 export default function AboutMe() {
   return (
@@ -14,13 +14,13 @@ export default function AboutMe() {
       </Head>
       <Container>
         <div className="flex flex-col items-center justify-center min-h-screen py-2">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-argentum">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-argentum text-orange-400">
             Learn About Me
           </h1>
           <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
             <Link href="/aboutme/skills">
-              <a className="p-6 lg:p-10 mt-6 text-left border w-96 rounded-xl hover:text-blue-400 focus:text-blue-500">
-                <h3 className="text-2xl font-bold">My Skills &rarr;</h3>
+              <a className="p-6 lg:p-10 mt-6 text-left border hover:border-yel w-96  rounded-xl focus:border-yel">
+                <h3 className="text-2xl font-bold text-yel hover:underline">My Skills &rarr;</h3>
                 <p className="mt-4 text-xl">
                   The languages and programs I am familiar with.
                 </p>
@@ -29,7 +29,7 @@ export default function AboutMe() {
             <div className="flex flex-wrap items-center justify-around max-w-4xl mt-0 sm:w-full">
               <Link href="/aboutme/academic-achievements">
                 <a className={card_css}>
-                  <h3 className="text-2xl font-bold">
+                  <h3 className="text-2xl font-bold text-yel hover:underline">
                     Academic Achievements &rarr;
                   </h3>
                   <p className="mt-4 text-xl">
@@ -40,7 +40,7 @@ export default function AboutMe() {
 
               <Link href="/aboutme/work-internships">
                 <a className={card_css}>
-                  <h3 className="text-2xl font-bold">
+                  <h3 className="text-2xl font-bold text-yel hover:underline">
                     Work & Internships &rarr;
                   </h3>
                   <p className="mt-4 text-xl">
@@ -51,7 +51,7 @@ export default function AboutMe() {
 
               <Link href="/aboutme/extracurricular-activities">
                 <a className={card_css}>
-                  <h3 className="text-2xl font-bold">
+                  <h3 className="text-2xl font-bold text-yel hover:underline">
                     Extracurriculars &rarr;
                   </h3>
                   <p className="mt-4 text-xl">
@@ -63,7 +63,7 @@ export default function AboutMe() {
 
               <Link href="/aboutme/hobbies-interests">
                 <a className={card_css}>
-                  <h3 className="text-2xl font-bold">
+                  <h3 className="text-2xl font-bold text-yel hover:underline">
                     Hobbies & Interests &rarr;
                   </h3>
                   <p className="mt-4 text-xl">

@@ -34,7 +34,10 @@ export default function Skills() {
         <title>Naman Arora | Skills</title>
       </Head>
       <Container>
-        <div className="grid grid-cols-3 gap-1 py-10">
+        <h1 className="font-argentum text-5xl md:text-7xl lg:text-8xl text-center text-orange-400">
+          My Skills
+        </h1>
+        <div className="grid grid-cols-3 gap-1 pt-4 pb-10">
           <div className={gridStyle}>
             <a
               href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"

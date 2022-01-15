@@ -14,6 +14,9 @@ module.exports = {
         'accent-7': '#333',
         success: '#0070f3',
         cyan: '#79FFE1',
+        liyel: '#fff95b',
+        yel: '#FFC635',
+        ora: '#ff930f',
       },
       spacing: {
         28: '7rem',

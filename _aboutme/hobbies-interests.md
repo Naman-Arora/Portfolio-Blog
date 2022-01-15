@@ -17,8 +17,8 @@ ogImage:
 
 ### **Traveling**
 - I also really enjoy traveling, especially with my family.
-- I have visited locations all around the U.S. and around the world, including New York City, Cancún, and New Delhi. 
+- I have visited locations all around the U.S. and around the world, including **New York City**, **Cancún**, and **New Delhi**. 
 
 ### **Digital Media**
-- Another one of my favorite activities is creating digital media with computers, which includes 3D renders and animations with **Blender**, video editing with **Da Vinci Resolve**, and photo manipulation and art with **GIMP**.
+- Another one of my favorite activities is creating digital media with computers, which includes 3D renders and animations with **Blender**, video editing with **DaVinci Resolve**, and photo manipulation and art with **GIMP**.
 <!-- - Please check out my work [here](https://www.example.com).--->

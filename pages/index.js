@@ -15,8 +15,8 @@ export default function Index() {
         <div className="flex flex-col lg:flex-col ">
           <div className="">
             <h3 className="font-baron text-6xl text-center pr-52">Hi, I'm</h3>
-            <h1 className="font-baron text-8xl text-center">
-              <span>NAMAN</span> <br />{" "}
+            <h1 className="font-baron text-8xl text-center bg-gradient-to-r from-liyel to-ora bg-clip-text text-transparent">
+              <span className="">NAMAN</span> <br />{" "}
               <span className="tracking-wide">ARORA</span>
             </h1>
           </div>

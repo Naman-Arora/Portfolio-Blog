@@ -1,7 +1,6 @@
 import Container from '../components/container'
 import MoreStories from '../components/more-stories'
 import HeroPost from '../components/hero-post'
-import Intro from '../components/intro'
 import Layout from '../components/layout'
 import { getAllPosts } from '../lib/posts-api'
 import Head from 'next/head'
@@ -17,7 +16,9 @@ export default function Blog({ allPosts }) {
         </Head>
         
         <Container>
-        {/*<Intro blog />*/}
+          <h1 className='text-5xl md:text-7xl lg:text-8xl font-bold font-argentum text-orange-400 text-center pb-10'>
+            My Blog
+          </h1>
           {heroPost && (
             <HeroPost
               title={heroPost.title}

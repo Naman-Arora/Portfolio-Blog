@@ -10,11 +10,11 @@ export default function Contact() {
       </Head>
 
       <Container>
-        <div className="lg:pb-52">
+        <div className="pb- md:pb-64 lg:pb-52">
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold font-argentum text-orange-400 text-center pt-4 pb-8">
             Contact Me
           </h1>
-          <h2 className="text-3xl md:text-4xl text-center pb-4 font-lato font-bold">Please contact me for more information.</h2>
+          <h2 className="text-4xl md:text-5xl text-center pb-4 font-lato font-bold">Please contact me for more information.</h2>
           <div className="flex flex-col items-center justify-center">
             <ul className="text-3xl font-lato">
               <li className="py-6">

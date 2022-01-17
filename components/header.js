@@ -4,15 +4,15 @@ import Link from 'next/link'
 import Container from './container'
 
 
-export default function Header({ aboutme, blog, contact, noHome }) {
+export default function Header({ aboutme, blog, contact, atHome }) {
 
   return (
     <header className='bg-accent-7 border-t border-t-accent-7' >
       <Container>
         <div className='flex-col md:flex-row flex items-center md:justify-between mt-10 mb-10 py-4 '>
-          <h2 className={noHome ? "" : "text-6xl md:text-6.5xl font-bold leading-tight mb-10 mt-0 font-baron hover:underline"} >
+          <h2 className={atHome ? "" : "text-6xl md:text-6.5xl font-bold leading-tight mb-10 mt-0 font-baron hover:underline"} >
             <Link href="/">
-              <a className={noHome ? "hidden":"hover:underline focus:underline bg-gradient-to-r from-liyel to-ora bg-clip-text text-transparent"}>NAMAN ARORA</a>
+              <a className={atHome ? "hidden":"hover:underline focus:underline bg-gradient-to-r from-liyel to-ora bg-clip-text text-transparent"}>NAMAN ARORA</a>
             </Link>
           </h2>
           <div className='flex tracking-tighter text-2xl font-bold'>

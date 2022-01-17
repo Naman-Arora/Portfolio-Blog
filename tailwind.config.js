@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       fontFamily:{
         rslab: ['Roboto Slab'],
+        lato: ['Lato'],
         baron: ['Baron Neue Black'],
         base: ['Basement Grotesque Roman'],
         argentum: ['Argentum Sans Black'],

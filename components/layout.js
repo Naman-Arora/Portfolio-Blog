@@ -7,7 +7,7 @@ import Header from './header'
 let ab;
 let bl;
 let ct;
-let nh;
+let ah;
 let nhd;
 
 function headerType(){
@@ -23,33 +23,42 @@ function headerType(){
   else if(ct){
     return <Header contact />;
   }
-  else if(nh){
-    return <Header noHome />;
+  else if(ah){
+    return <Header atHome />;
   }
   else{
     return <Header />;
   }
 }
 
-export default function Layout({children, noHeader, aboutme, blog, contact, noHome }) {
+function footerType(){
+  if(ah){
+    return <Footer atHome />
+  }
+  else {
+    return <Footer />
+  }
+}
+
+export default function Layout({children, noHeader, aboutme, blog, contact, atHome }) {
 
   ab = aboutme;
   bl = blog;
   ct = contact;
   nhd = noHeader;
-  nh = noHome;
+  ah = atHome;
 
   return (
     <>
-      <Meta />
-      {headerType()}
-      <div className={noHome ? "min-h-full" :"min-h-screen" } /*className='min-h-screen'*/>
+      <div className={atHome || contact ? "h-screen" :"" }>
+        <Meta />
+        {headerType()}
+        <div className={atHome || contact ? "" :"min-h-screen" } /*className='min-h-screen'*/>
         
-        <main>{children}</main>
-      </div>
-        <div /*className={noHome ? "lg:bottom-0 lg:fixed lg:w-screen": ""}*/>
-          <Footer />
+          <main>{children}</main>
         </div>
+            {footerType()}
+      </div>
     </>
   )
 }

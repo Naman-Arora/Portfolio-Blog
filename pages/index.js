@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Index() {
   return (
-    <Layout noHome>
+    <Layout atHome>
       <Head>
         <title>Naman Arora</title>
       </Head>
@@ -21,7 +21,7 @@ export default function Index() {
             </h1>
           </div>
           <div className="lg:px-20 lg:pt-20 pt-16 pb-24">
-            <span className="text-2xl lg:text-3xl font-rslab ">
+            <span className="text-2xl md:text-3xl font-rslab ">
               A senior at the{" "}
               <a
                 href="https://cpast.conroeisd.net/"
@@ -39,27 +39,6 @@ export default function Index() {
                 Woodlands College Park High School
               </a>
               . I'm 16 years old and live in Houston, Texas. I am intrested in pursuing a degree in Computer Science and Engineering, as I enjoy coding and building circuits. A few of my hobbies are traveling, website developing,  gaming, making visual media, and playing tennis.
-              {/*<div className="text-center">
-                <span className="text-4xl">
-                  <Link href="/aboutme">
-                    <a className="text-blue-400 hover:underline">
-                      About Me &rarr;
-                    </a>
-                  </Link>
-                  <br />
-                  <Link href="/blog">
-                    <a className="text-blue-400 hover:underline">
-                      My Blog &rarr;
-                    </a>
-                  </Link>
-                  <br />
-                  <Link href="/contact">
-                    <a className="text-blue-400 hover:underline">
-                      Contact Me &rarr;
-                    </a>
-                  </Link>
-                </span>
-  </div>*/}
             </span>
           </div>
         </div>

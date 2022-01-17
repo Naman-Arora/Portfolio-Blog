@@ -16,7 +16,7 @@ export default function Blog({ allPosts }) {
         </Head>
         
         <Container>
-          <h1 className='text-5xl md:text-7xl lg:text-8xl font-bold font-argentum text-orange-400 text-center pb-10'>
+          <h1 className='text-7xl lg:text-8xl font-bold font-argentum text-orange-400 text-center pb-10'>
             My Blog
           </h1>
           {heroPost && (

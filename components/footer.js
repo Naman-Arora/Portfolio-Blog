@@ -2,9 +2,9 @@
 
 import Container from "./container";
 
-export default function Footer() {
+export default function Footer({ atHome }) {
   return (
-    <footer className="bg-accent-7 border-t border-t-accent-7">
+    <footer className={atHome ? "bg-accent-7 border-t border-t-accent-7 border-b border-b-accent-7 pb-0" : "bg-accent-7 border-t border-t-accent-7 border-b border-b-accent-7 pb-0"}>
       <Container>
         <div className="py-14 flex flex-col lg:flex-row items-center">
           <h3 className="text-3xl lg:text-4xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">

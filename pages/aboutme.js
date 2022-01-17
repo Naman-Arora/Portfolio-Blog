@@ -14,8 +14,8 @@ export default function AboutMe() {
       </Head>
       <Container>
         <div className="flex flex-col items-center justify-center min-h-screen py-2">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold font-argentum text-orange-400">
-            Learn About Me
+          <h1 className="text-6.5xl lg:text-8xl font-bold font-argentum text-orange-400 text-center">
+            Learn <br></br>About Me
           </h1>
           <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
             <Link href="/aboutme/skills">

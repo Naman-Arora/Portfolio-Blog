@@ -13,11 +13,11 @@ export default function AboutMe() {
         <title>Naman Arora | About Me</title>
       </Head>
       <Container>
-        <div className="flex flex-col items-center justify-center min-h-screen py-2">
+        <div className="flex flex-col items-center justify-center min-h-screen pt-2">
           <h1 className="text-6.5xl lg:text-8xl font-bold font-argentum text-orange-400 text-center">
             Learn <br></br>About Me
           </h1>
-          <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+          <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center lg:pb-10">
             <Link href="/aboutme/skills">
               <a className="p-6 lg:p-10 mt-6 text-left border hover:border-yel w-96  rounded-xl focus:border-yel">
                 <h3 className="text-2xl font-bold text-yel hover:underline">My Skills &rarr;</h3>

@@ -22,23 +22,15 @@ export default function Index() {
           </div>
           <div className="lg:px-20 lg:pt-20 pt-16 pb-24">
             <span className="text-2xl md:text-3xl font-rslab ">
-              A senior at the{" "}
+              A freshmen at the{" "}
               <a
-                href="https://cpast.conroeisd.net/"
+                href="https://www.utexas.edu/"
                 target="_blank"
                 className="text-blue-400 hover:underline"
               >
-                Academy of Science and Technology
+                University of Texas at Austin
               </a>{" "}
-              at the{" "}
-              <a
-                href="https://twcp.conroeisd.net/"
-                target="_blank"
-                className="text-blue-400 hover:underline"
-              >
-                Woodlands College Park High School
-              </a>
-              . I'm 16 years old and live in Houston, Texas. I am intrested in pursuing a degree in Computer Science and Engineering, as I enjoy coding and building circuits. A few of my hobbies are traveling, website developing,  gaming, making visual media, and playing tennis.
+              . I'm 18 years old and live in Houston, Texas. I am pursuing a degree in Computer Science , as I enjoy coding in many languages, including Java, Javascript, and Arduino. A few of my hobbies are traveling, developing, gaming, making visual media, and playing tennis.
             </span>
           </div>
         </div>

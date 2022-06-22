@@ -22,7 +22,7 @@ export default function Index() {
           </div>
           <div className="lg:px-20 lg:pt-20 pt-16 pb-24">
             <span className="text-2xl md:text-3xl font-rslab ">
-              A freshmen at the{" "}
+              A freshman at the{" "}
               <a
                 href="https://www.utexas.edu/"
                 target="_blank"

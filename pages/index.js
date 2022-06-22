@@ -28,9 +28,7 @@ export default function Index() {
                 target="_blank"
                 className="text-blue-400 hover:underline"
               >
-                University of Texas at Austin
-              </a>{" "}
-              . I'm 18 years old and live in Houston, Texas. I am pursuing a degree in Computer Science , as I enjoy coding in many languages, including Java, Javascript, and Arduino. A few of my hobbies are traveling, developing, gaming, making visual media, and playing tennis.
+                University of Texas at Austin</a>{""}. I'm 18 years old and live in Houston, Texas. I am pursuing a degree in Computer Science , as I enjoy coding in many languages, including Java, Javascript, and Arduino. A few of my hobbies are traveling, developing, gaming, making visual media, and playing tennis.
             </span>
           </div>
         </div>

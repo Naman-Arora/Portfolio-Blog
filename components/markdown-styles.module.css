@@ -19,6 +19,10 @@
   @apply text-3xl mt-8 mb-4 leading-snug text-yel;
 }
 
-.markdown a{
+.markdown a {
   @apply text-blue-400 my-6 text-xl tracking-normal hover:underline;
+}
+
+.markdown strong {
+  @apply my-6 text-xl tracking-normal font-bold;
 }

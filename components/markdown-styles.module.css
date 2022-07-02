@@ -20,5 +20,5 @@
 }
 
 .markdown a{
-  @apply text-blue-400 my-6 text-xl tracking-normal;
+  @apply text-blue-400 my-6 text-xl tracking-normal hover:underline;
 }

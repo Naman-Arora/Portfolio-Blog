@@ -18,3 +18,7 @@
 .markdown h3 {
   @apply text-3xl mt-8 mb-4 leading-snug text-yel;
 }
+
+.markdown a{
+  @apply text-blue-400 my-6 text-xl tracking-normal;
+}

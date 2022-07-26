@@ -12,7 +12,7 @@ export default function Footer({ atHome }) {
           </h3>
           <div className="flex flex-row justify-center items-center lg:pl-4 lg:w-1/2">
             <a
-              href="mailto:namanarora166@gmail.com"
+              href="mailto:namanarora@mail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="mx-1 hover:text-blue-400"

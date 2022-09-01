@@ -12,3 +12,4 @@ Please contact me for more information:
  - [Email](mailto:namanarora@mail.com)
  - [LinkedIn](https://www.linkedin.com/in/namarora)
  - [Twitter](https://twitter.com/RealNamanArora)
+ - [Instagram](https://instagram.com/namarora)

@@ -9,6 +9,6 @@ The website uses these resources in order to function:
  - [Remark / Remark-HTML](https://remark.js.org/)
 
 Please contact me for more information:
- - [Email](mailto:namanarora166@gmail.com)
+ - [Email](mailto:namanarora@mail.com)
  - [LinkedIn](https://www.linkedin.com/in/namarora)
  - [Twitter](https://twitter.com/RealNamanArora)
